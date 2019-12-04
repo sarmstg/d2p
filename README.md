@@ -21,10 +21,19 @@
 * The session1.npy file is a 3d array of shape [n_cells x n_trials x time]
 * The trial_info.npy dictionary has values that tell you about the trial (each array should have the length n_trials)
 
+## Potential project focus?
+* Can the trial outcome (hit vs miss) be predicted from activty preceeding stimulation? This would involve analysing if there is a difference in the first 5 frames [0,1,2,3,4] of hit and miss trials.
+#### How can you tell if there is a difference in neural activity?
+* The first pass analysis would be to take a mean across the first 5 frames, so you have a matrix of shape [n_cells x n_trials]. This matrix can be passed to several differnet methods of classification e.g. a Support Vector Machine or a logitic regression (you will need to split your data into test and training). If this doesn't work, we can come up with an alternative to averaging across frames. 
+
+
 ## Useful links
-* The two presentations shown at the start
-https://docs.google.com/presentation/d/1FhbRND5hbArppZ0r7mmPciL3ZQ0w4Qsm4On-TY_aKFM/edit?usp=sharing
-https://docs.google.com/presentation/d/11A9RlTV3TscO1kQBNb2sUs-e9Wg3A9OH3NSXCBOlfLM/edit?usp=sharing
+#### The two presentations shown at the start
+* https://docs.google.com/presentation/d/1FhbRND5hbArppZ0r7mmPciL3ZQ0w4Qsm4On-TY_aKFM/edit?usp=sharing
+* https://docs.google.com/presentation/d/11A9RlTV3TscO1kQBNb2sUs-e9Wg3A9OH3NSXCBOlfLM/edit?usp=sharing
+#### Analysis tools
+* https://www.datacamp.com/community/tutorials/support-vector-machines-r
+* https://www.datacamp.com/community/tutorials/logistic-regression-R
 
 
 
