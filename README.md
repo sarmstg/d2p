@@ -1,6 +1,7 @@
 # d2p
  Miniproject for Oxford Interdisciplinary Biosciences DTP data management and statistics course. Example data from 2-photon calcium imaging of mouse somatosensory cortex. 
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sarmstg/d2p/master)
 
 ## setup instructions
 * Download git bash for windows https://gitforwindows.org/
